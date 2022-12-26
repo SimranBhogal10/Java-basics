@@ -1,13 +1,13 @@
-class Fruits{
+class Fruit{
     protected void display(){
      System.out.println("Hello, this is a fruit");
     }
 }
-
-class Apple extends Fruits{
+//import Fruits;
+class Apples extends Fruit{
     public static void main(String[] args){
 
-        Fruits obj = new Fruits();
+        Fruit obj = new Fruit();
         obj.display();
     }
 }

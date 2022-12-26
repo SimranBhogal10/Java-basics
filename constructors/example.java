@@ -1,21 +1,21 @@
-class Fruits {
+class Vehicle {
   private String name;
 
   // constructor
-  Fruits() {
+  Vehicle() {
     System.out.println("No-args constructor Called:");
-    name = "Apple";
+    name = "Thar";
   }
-  Fruits(String name) {
+  Vehicle(String name) {
       System.out.println("Parameterized constructor called:");
       this.name=name;
   }
 
   public static void main(String[] args) {
 
-    Fruits obj = new Fruits();
-    System.out.println("The fruit is " + obj.name);
-    Fruits obj1= new Fruits("Mango");
-    System.out.println("The fruit is " + obj1.name);
+    Vehicle obj = new Vehicle();
+    System.out.println("The vehicle is " + obj.name);
+    Vehicle obj1= new Vehicle("BMW");
+    System.out.println("The vehicle is " + obj1.name);
   }
 }

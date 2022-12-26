@@ -1,15 +1,15 @@
-class Fruits{
+class Flower{
     public String name;
     public void display(){
      System.out.println(name);
     }
 }
 
-class Main {
+class FlowerMain {
     public static void main(String[] args){
 
-        Fruits obj = new Fruits();
-        obj.name = "Apple";
+        Flower obj = new Flower();
+        obj.name = "Rose";
         obj.display();
     }
 }

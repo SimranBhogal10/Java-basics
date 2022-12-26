@@ -1,4 +1,4 @@
-class Fruits{
+class Person{
     private String name;
 
     public String getName(){
@@ -9,11 +9,11 @@ class Fruits{
      }
 }
 
-class Main {
+class PersonMain {
     public static void main(String[] args){
 
-        Fruits obj = new Fruits();
-        obj.setName("Apple");
+        Person obj = new Person();
+        obj.setName("Simran");
         System.out.println(obj.getName());
     }
 }
