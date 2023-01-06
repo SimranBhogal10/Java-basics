@@ -23,6 +23,11 @@ public class StreamsDemo {
                        .count(); 
         System.out.printf("List %s has %d strings which startsWith 'a' %n", strList, count);   
         
+        List<Integer> values = Arrays.asList(1,2,3,4,5,6);
+        
+        System.out.println(values.stream()
+                                 .map(i -> i*2)
+                                 .reduce(0,Integer::sum)); 
         
     }
 }
