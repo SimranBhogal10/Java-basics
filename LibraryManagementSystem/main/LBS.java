@@ -112,6 +112,7 @@ public class LBS {
                 System.out.println("Thank you! Visit Again.");
                 System.out.println("*******************************************************");
                 continueLoop = false;
+                scObj.close();
             }
         }
 
